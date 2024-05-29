@@ -1,0 +1,53 @@
+First poin
+
+Test case 1
+
+Scenario: Users can subscribe freely and see the link 
+
+GIVEN the user can access the link  without restricction
+WHEN
+  the user click on https://rotogrinders.com/sign-up
+  and the page is open in a new window
+THEN
+  the page shows the user options to create a new account
+
+Test case 2
+
+Scenario: User enter his personal information in order to create a new account
+
+GIVEN the Signup frame is open and anable to enter information
+  and username, email and pasword fileds are anable to write
+When 
+  User enter a username, email, password
+  user check the recapcha checkbox
+  user click on CREATE ACCOUNT button
+Then
+  the new account is created
+  and the page will show the welcome page to user
+
+Second point
+
+I will use playwrith to automate this cases because in a couple lines of code, i would test all requeriment
+I will set up all in visual code wich is a really quick tool that has all modules to create an execute test quickly
+
+Third point
+
+Test case 1
+Verify the page is loaded with all components that need in order to be understandable 
+test case 2
+Verify the username field max size, numbers, signs and spaces
+Test case 3
+Verify the email field max size, at sign, short size and spaces
+test case 4
+Verify the password fied max size, signs, spaces, hide writing
+test case 5 
+verify the recaptcha ckeckbox, time availability, functionality, 
+Test case 6
+verify CREATE ACCOUNT button functoinality, availability 
+Test case 7 
+verify by postman if all information is going to server by json 
+Test case 8 
+verify by inspector web browser if some error is existing in the page
+Test case 9 
+Verify if all page has the format that the BRD requeried 
+ 
